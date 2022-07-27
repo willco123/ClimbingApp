@@ -1,0 +1,72 @@
+What the APP DOES
+Record climbing data
+  Routes
+    Route Difficulty (v grade, font grade)
+    Attempts (flash, 1,2..., project)
+    Style of climb
+      Overhung?
+      Slab?
+      Wall angle?
+    Type of holds
+      crimps
+      jugs
+      slopers
+      pinches
+      hold size?
+    Type of moves
+      Dyno
+      Static
+      Balancy
+      Gaston
+      Compression
+      Toe hook
+      heal hook
+      Rock over
+      Campus
+      Tension?
+      arete
+      mantle
+
+  Hangboarding
+    Milimeter of crimp
+    Type of hangs(half crimp/drag/pockets)
+    Sets
+    Time per Hang
+    On screen timer
+    Current body weight
+    Added weight
+  
+  Pinches
+    Weight
+    timer
+    Sets
+    reps?
+
+Leaderboard/Accounts for future investigation
+
+Tech:
+React front end
+Express Back-end
+DB will be MYSQL/mongo though will aim to use local phone storage ultimately
+Android/Apple?
+
+Additional modules:
+graphQL?
+ORM (sequelize)
+DB connector (mongoose, pg, mysql2)
+testing(jest, supertest)
+data encryption? (bcrypt)
+validation? (joi)
+dot.env
+lodash
+
+TODO:
+Create basic server setup
+Create endpoints that can be called that fulfill the criteria:
+  Hangboarding
+  Pinches
+  Timer (module will be shared amongst other endpoints aswell)
+  Climbing app
+Setup DB connections(change to local storage later)
+Implement login for each endpoint
+Create test cases
